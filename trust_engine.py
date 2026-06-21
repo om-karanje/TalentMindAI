@@ -1,8 +1,9 @@
 """
-Generates:
+Outputs:
 1. trust_score
 2. honeypot_penalty
 3. trust_flags
+
 """
 
 from datetime import datetime
@@ -17,21 +18,16 @@ def safe_float(value, default=0.0):
 def clamp(value, min_val=0.0, max_val=1.0):
     return max(min_val, min(value, max_val))
 
-# VERIFICATION SCORE
+# VERIFICATION
 def calculate_verification_score(signals):
-
     email = 1 if signals.get("verified_email",False) else 0
-
     phone = 1 if signals.get("verified_phone",False) else 0
-
     linkedin = 1 if signals.get("linkedin_connected",False) else 0
+    
+    return (0.4 * email +0.4 * phone +0.2 * linkedin)
 
-    score = (0.4 * email +0.4 * phone +0.2 * linkedin)
-    return score
-
-# PROFILE COMPLETENESS PENALTY
+# PROFILE COMPLETENESS
 def profile_completeness_penalty(signals):
-
     completeness = safe_float(signals.get("profile_completeness_score",0))
 
     if completeness < 40:
@@ -42,14 +38,12 @@ def profile_completeness_penalty(signals):
 
     return 0.0
 
-# SKILL INFLATION CHECK
+# SKILL INFLATION
 def skill_inflation_penalty(skills,years_exp):
-
     if years_exp <= 0:
         return 0.30
 
     skill_count = len(skills)
-
     ratio = (skill_count /years_exp)
 
     if ratio > 7:
@@ -62,9 +56,7 @@ def skill_inflation_penalty(skills,years_exp):
 
 # SKILL DURATION CHECK
 def skill_duration_penalty(skills,years_exp):
-
     penalty = 0.0
-
     max_possible_months = (years_exp * 12)
 
     for skill in skills:
@@ -77,7 +69,6 @@ def skill_duration_penalty(skills,years_exp):
 
 # CAREER CONTRADICTION
 def career_contradiction_penalty(profile,skills):
-
     title = str(profile.get("current_title","")).lower()
 
     business_titles = [
@@ -113,8 +104,7 @@ def career_contradiction_penalty(profile,skills):
 
         if any(
             keyword in skill_name
-            for keyword in ai_keywords
-        ):
+            for keyword in ai_keywords):
             ai_skill_count += 1
 
     if title_is_business and ai_skill_count >= 3:
@@ -122,16 +112,13 @@ def career_contradiction_penalty(profile,skills):
 
     return 0.0
 
-# EDUCATION TIMELINE CHECK
+# EDUCATION TIMELINE
 def education_timeline_penalty(education,years_exp):
-
     if not education:
         return 0.0
 
     latest_end_year = max(edu.get("end_year",2000)for edu in education)
-
     current_year = datetime.now().year
-
     possible_exp = (current_year -latest_end_year)
 
     if years_exp > (possible_exp + 2):
@@ -139,68 +126,75 @@ def education_timeline_penalty(education,years_exp):
 
     return 0.0
 
-# CAREER TIMELINE CHECK
+# CAREER TIMELINE
 def career_timeline_penalty(career_history,years_exp):
-
     total_months = 0
 
     for job in career_history:
-
         total_months += safe_float(job.get("duration_months",0))
 
     career_years = (total_months / 12)
 
-    if abs(career_years -years_exp) > 3:
+    if abs(career_years - years_exp) > 3:
         return 0.20
 
     return 0.0
 
-# WEAK EVIDENCE CHECK
+# WEAK EVIDENCE
 def weak_evidence_penalty(profile,signals):
-
     title = str(profile.get("current_title","")).lower()
-
     github_score = safe_float(signals.get("github_activity_score",0))
-
     assessments = signals.get("skill_assessment_scores",{})
 
-    ai_keywords = [
+    technical_titles = [
         "engineer",
-        "ml",
+        "developer",
+        "scientist",
         "machine learning",
-        "data scientist",
-        "ai"
+        "ai",
+        "data"
     ]
 
     technical_role = any(
         keyword in title
-        for keyword in ai_keywords
+        for keyword in technical_titles
     )
 
-    if (
-        technical_role
-        and github_score == 0
-        and len(assessments) == 0
-    ):
+    if (technical_role and github_score == 0 and len(assessments) == 0):
         return 0.15
 
     return 0.0
 
-# TRUST SCORE
-def calculate_trust_score(candidate):
-
-    profile = candidate.get("profile",{})
-
-    skills = candidate.get("skills",[])
-
-    education = candidate.get("education",[])
-
-    career_history = candidate.get("career_history",[])
-
+# TRUST FLAGS
+def generate_trust_flags(candidate, honeypot_penalty):
+    flags = []
     signals = candidate.get("redrob_signals",{})
 
-    years_exp = safe_float(profile.get("years_of_experience",0))
+    if signals.get("verified_email",False):
+        flags.append("verified_email")
 
+    if signals.get("verified_phone",False):
+        flags.append("verified_phone")
+
+    if signals.get("linkedin_connected",False):
+        flags.append("linkedin_connected")
+
+    if honeypot_penalty >= 0.4:
+        flags.append("high_risk_profile")
+
+    elif honeypot_penalty >= 0.2:
+        flags.append("medium_risk_profile")
+
+    return flags
+
+# MAIN TRUST SCORE
+def calculate_trust_score(candidate):
+    profile = candidate.get("profile",{})
+    skills = candidate.get("skills",[])
+    education = candidate.get("education",[])
+    career_history = candidate.get("career_history",[])
+    signals = candidate.get("redrob_signals",{})
+    years_exp = safe_float(profile.get("years_of_experience",0))
     verification_score = (calculate_verification_score(signals))
 
     penalties = []
@@ -214,32 +208,14 @@ def calculate_trust_score(candidate):
 
     total_penalty = sum(penalties)
 
-    trust_score = (verification_score -total_penalty)
+    trust_score = (0.85 - total_penalty + (0.15 * verification_score))
     trust_score = clamp(trust_score)
 
     honeypot_penalty = min(total_penalty,1.0)
 
-    return (round(trust_score,4), round(honeypot_penalty,4))
+    return (round(trust_score,4),round(honeypot_penalty,4))
 
-# TRUST FLAGS
-def generate_trust_flags(candidate):
-
-    flags = []
-
-    signals = candidate.get("redrob_signals",{})
-
-    if signals.get("verified_email",False):
-        flags.append("verified_email")
-
-    if signals.get("verified_phone",False):
-        flags.append("verified_phone")
-
-    if signals.get("linkedin_connected",False):
-        flags.append("linkedin_connected")
-
-    return flags
-
-# MAIN GENERATOR
+# FEATURE GENERATOR
 def generate_trust_features(candidate):
     trust_score, honeypot_penalty = (calculate_trust_score(candidate))
 
@@ -247,17 +223,32 @@ def generate_trust_features(candidate):
         "candidate_id":candidate.get("candidate_id"),
         "trust_score":trust_score,
         "honeypot_penalty":honeypot_penalty,
-        "trust_flags":generate_trust_flags(candidate)
-    }
+        "trust_flags":generate_trust_flags(candidate)}
 
 # TEST
 if __name__ == "__main__":
-
     import json
     with open("sample_candidates.json","r",encoding="utf-8") as f:
-        candidates = json.load(f) 
-    
+        candidates = json.load(f)
+
+    trust_scores = []
+    penalties = []
+
     for candidate in candidates[:20]:
         result = (generate_trust_features(candidate))
 
+        trust_scores.append(result["trust_score"])
+
+        penalties.append(result["honeypot_penalty"])
+
         print(result)
+
+    print("\nTRUST SCORE STATS")
+    print("Min =", min(trust_scores))
+    print("Max =", max(trust_scores))
+    print("Avg =",round(sum(trust_scores)/len(trust_scores),4))
+    
+    print("\nHONEYPOT PENALTY STATS")
+    print("Min =", min(penalties))
+    print("Max =", max(penalties))
+    print("Avg =",round(sum(penalties)/len(penalties),4))
