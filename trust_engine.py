@@ -223,7 +223,7 @@ def generate_trust_features(candidate):
         "candidate_id":candidate.get("candidate_id"),
         "trust_score":trust_score,
         "honeypot_penalty":honeypot_penalty,
-        "trust_flags":generate_trust_flags(candidate)}
+        "trust_flags":generate_trust_flags(candidate, honeypot_penalty)}
 
 # TEST
 if __name__ == "__main__":
