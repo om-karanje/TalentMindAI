@@ -1,0 +1,34 @@
+{
+  "must_have": [
+    "large language models",
+    "transformer models",
+    "model fine tuning",
+    "parameter efficient fine tuning",
+    "information retrieval",
+    "matching systems",
+    "search systems",
+    "search infrastructure",
+    "ranking systems",
+    "embeddings",
+    "text embeddings",
+    "embedding models",
+    "sentence transformers",
+    "embedding operations",
+    "vector databases",
+    "vector indexes",
+    "ai evaluation",
+    "ranking evaluation",
+    "python",
+    "distributed systems",
+    "go",
+    "natural language processing",
+    "computer vision",
+    "robotics"
+  ],
+  "nice_to_have": [
+    "information retrieval"
+  ],
+  "experience": 1.5,
+  "seniority": "founding",
+  "domain": "ai"
+}
