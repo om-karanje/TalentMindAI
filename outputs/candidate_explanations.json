@@ -1,0 +1,1109 @@
+[
+  {
+    "candidate_id": "CAND_0000031",
+    "semantic_score": 100.0,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "marketplace",
+      "ai",
+      "search"
+    ],
+    "matched_skills": [
+      "search systems",
+      "ranking systems",
+      "ai evaluation",
+      "embeddings",
+      "sentence transformers",
+      "information retrieval",
+      "computer vision",
+      "transformer models",
+      "go",
+      "vector indexes",
+      "vector databases",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, marketplace, ai, search",
+      "Matches relevant skills: search systems, ranking systems, ai evaluation, embeddings, sentence transformers, information retrieval, computer vision, transformer models",
+      "Shows retrieval or search experience",
+      "Shows ranking or ranking-evaluation experience",
+      "Shows recommendation or personalization experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000021",
+    "semantic_score": 95.49,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "marketplace",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "search systems",
+      "embeddings",
+      "information retrieval",
+      "model fine tuning",
+      "go",
+      "vector indexes",
+      "vector databases",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, marketplace, ai, cloud, search",
+      "Matches relevant skills: search systems, embeddings, information retrieval, model fine tuning, go, vector indexes, vector databases, natural language processing",
+      "Shows retrieval or search experience",
+      "Shows recommendation or personalization experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000011",
+    "semantic_score": 94.9,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "marketplace",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "transformer models",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, marketplace, ai, cloud, search",
+      "Matches relevant skills: information retrieval, transformer models, natural language processing",
+      "Shows retrieval or search experience",
+      "Shows recommendation or personalization experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000026",
+    "semantic_score": 94.17,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "search systems",
+      "ai evaluation",
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: search systems, ai evaluation, information retrieval, go, natural language processing, large language models",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000034",
+    "semantic_score": 92.32,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "search systems",
+      "information retrieval",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: search systems, information retrieval, natural language processing, large language models",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000002",
+    "semantic_score": 91.74,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "search systems",
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: search systems, information retrieval, go, natural language processing, large language models",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000010",
+    "semantic_score": 91.36,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "search systems",
+      "python",
+      "search infrastructure",
+      "information retrieval",
+      "computer vision",
+      "model fine tuning",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: search systems, python, search infrastructure, information retrieval, computer vision, model fine tuning, natural language processing",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000030",
+    "semantic_score": 91.33,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "search systems",
+      "information retrieval",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: search systems, information retrieval, natural language processing, large language models",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000014",
+    "semantic_score": 91.05,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "search systems",
+      "search infrastructure",
+      "information retrieval",
+      "vector indexes",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: search systems, search infrastructure, information retrieval, vector indexes, natural language processing",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000020",
+    "semantic_score": 90.95,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "search systems",
+      "information retrieval",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: search systems, information retrieval, natural language processing, large language models",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000046",
+    "semantic_score": 90.48,
+    "matched_domains": [
+      "cloud",
+      "mlops",
+      "ai"
+    ],
+    "matched_skills": [
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, mlops, ai",
+      "Matches relevant skills: natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000008",
+    "semantic_score": 90.34,
+    "matched_domains": [
+      "cloud",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, backend, ai",
+      "Matches relevant skills: natural language processing, large language models",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000043",
+    "semantic_score": 90.09,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "search systems",
+      "search infrastructure",
+      "information retrieval",
+      "computer vision",
+      "model fine tuning",
+      "go",
+      "parameter efficient fine tuning",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: search systems, search infrastructure, information retrieval, computer vision, model fine tuning, go, parameter efficient fine tuning, natural language processing",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000048",
+    "semantic_score": 89.8,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "go",
+      "distributed systems",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: information retrieval, go, distributed systems, natural language processing",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000042",
+    "semantic_score": 89.29,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "search systems",
+      "ai evaluation",
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: search systems, ai evaluation, information retrieval, go, natural language processing, large language models",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000022",
+    "semantic_score": 89.17,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "search systems",
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: search systems, information retrieval, go, natural language processing, large language models",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000040",
+    "semantic_score": 89.05,
+    "matched_domains": [
+      "cloud",
+      "mlops",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "ai evaluation",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, mlops, backend, ai",
+      "Matches relevant skills: ai evaluation, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000017",
+    "semantic_score": 88.98,
+    "matched_domains": [
+      "cloud",
+      "mlops",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "ai evaluation",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, mlops, backend, ai",
+      "Matches relevant skills: ai evaluation, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000024",
+    "semantic_score": 88.76,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "search systems",
+      "information retrieval",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: search systems, information retrieval, natural language processing, large language models",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000005",
+    "semantic_score": 88.72,
+    "matched_domains": [
+      "mlops",
+      "search",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "computer vision",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, search, ai",
+      "Matches relevant skills: information retrieval, computer vision, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000007",
+    "semantic_score": 88.67,
+    "matched_domains": [
+      "mlops",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, search, backend, ai",
+      "Matches relevant skills: information retrieval, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000027",
+    "semantic_score": 88.54,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "ai evaluation",
+      "information retrieval",
+      "go",
+      "parameter efficient fine tuning",
+      "distributed systems",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: ai evaluation, information retrieval, go, parameter efficient fine tuning, distributed systems, natural language processing",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000004",
+    "semantic_score": 88.52,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "search systems",
+      "information retrieval",
+      "computer vision",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: search systems, information retrieval, computer vision, natural language processing, large language models",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000035",
+    "semantic_score": 88.24,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "marketplace",
+      "ai",
+      "cloud"
+    ],
+    "matched_skills": [
+      "go",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, marketplace, ai, cloud",
+      "Matches relevant skills: go, natural language processing",
+      "Shows recommendation or personalization experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000019",
+    "semantic_score": 87.67,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: information retrieval, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000049",
+    "semantic_score": 87.52,
+    "matched_domains": [
+      "cloud",
+      "mlops",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "ai evaluation",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, mlops, backend, ai",
+      "Matches relevant skills: ai evaluation, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000016",
+    "semantic_score": 87.34,
+    "matched_domains": [
+      "cloud",
+      "mlops",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "ai evaluation",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, mlops, backend, ai",
+      "Matches relevant skills: ai evaluation, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000037",
+    "semantic_score": 87.17,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: information retrieval, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000039",
+    "semantic_score": 87.09,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: information retrieval, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000047",
+    "semantic_score": 86.85,
+    "matched_domains": [
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: backend, ai",
+      "Matches relevant skills: natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000032",
+    "semantic_score": 86.76,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "python",
+      "embeddings",
+      "information retrieval",
+      "go",
+      "distributed systems",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: python, embeddings, information retrieval, go, distributed systems, natural language processing",
+      "Shows retrieval or search experience",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000036",
+    "semantic_score": 86.59,
+    "matched_domains": [
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "computer vision",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: search, backend, ai",
+      "Matches relevant skills: information retrieval, computer vision, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000050",
+    "semantic_score": 86.27,
+    "matched_domains": [
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: backend, ai",
+      "Matches relevant skills: natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000009",
+    "semantic_score": 85.7,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "ai evaluation",
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: ai evaluation, information retrieval, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000006",
+    "semantic_score": 85.46,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: information retrieval, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000013",
+    "semantic_score": 85.25,
+    "matched_domains": [
+      "cloud",
+      "mlops",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, mlops, backend, ai",
+      "Matches relevant skills: natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000018",
+    "semantic_score": 85.15,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: information retrieval, natural language processing",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000029",
+    "semantic_score": 84.66,
+    "matched_domains": [
+      "cloud",
+      "mlops",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, mlops, backend, ai",
+      "Matches relevant skills: natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000023",
+    "semantic_score": 84.5,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "go",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: information retrieval, go, natural language processing",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000045",
+    "semantic_score": 84.3,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "ai evaluation",
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: ai evaluation, information retrieval, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000025",
+    "semantic_score": 82.6,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: information retrieval, natural language processing",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000044",
+    "semantic_score": 81.48,
+    "matched_domains": [
+      "cloud",
+      "mlops",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "python",
+      "go",
+      "distributed systems",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, mlops, backend, ai",
+      "Matches relevant skills: python, go, distributed systems, natural language processing"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000041",
+    "semantic_score": 80.86,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: information retrieval, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000038",
+    "semantic_score": 80.8,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "go",
+      "vector databases",
+      "distributed systems",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: go, vector databases, distributed systems, natural language processing",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000015",
+    "semantic_score": 80.55,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "computer vision",
+      "go",
+      "vector databases",
+      "distributed systems",
+      "natural language processing"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: information retrieval, computer vision, go, vector databases, distributed systems, natural language processing",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000028",
+    "semantic_score": 80.32,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: information retrieval, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000033",
+    "semantic_score": 80.26,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "ai evaluation",
+      "information retrieval",
+      "go",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: ai evaluation, information retrieval, go, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000003",
+    "semantic_score": 78.09,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, ai",
+      "Matches relevant skills: information retrieval, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000012",
+    "semantic_score": 77.81,
+    "matched_domains": [
+      "cloud",
+      "search",
+      "backend",
+      "ai"
+    ],
+    "matched_skills": [
+      "information retrieval",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: cloud, search, backend, ai",
+      "Matches relevant skills: information retrieval, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  },
+  {
+    "candidate_id": "CAND_0000001",
+    "semantic_score": 76.93,
+    "matched_domains": [
+      "mlops",
+      "backend",
+      "ai",
+      "cloud",
+      "search"
+    ],
+    "matched_skills": [
+      "python",
+      "information retrieval",
+      "computer vision",
+      "model fine tuning",
+      "parameter efficient fine tuning",
+      "vector databases",
+      "natural language processing",
+      "large language models"
+    ],
+    "reasons": [
+      "Matches JD domains: mlops, backend, ai, cloud, search",
+      "Matches relevant skills: python, information retrieval, computer vision, model fine tuning, parameter efficient fine tuning, vector databases, natural language processing, large language models",
+      "Career history indicates product or platform relevance"
+    ]
+  }
+]
