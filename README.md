@@ -1,6 +1,6 @@
-# TalentMindAI - Person 2 Semantic Matching
+# TalentMindAI - Semantic Matching
 
-This module implements the Person 2 scope for the Redrob Intelligent Candidate Discovery & Ranking Challenge:
+This module implements the semantic matching scope for the Redrob Intelligent Candidate Discovery & Ranking Challenge:
 
 - JD understanding
 - JD intelligence
@@ -116,7 +116,7 @@ The notebook workflow:
 
 ## Stable APIs
 
-Person 3 and Person 4 should import from `src.interfaces`:
+Behavior+Trust Engine Developer and Ranking+Dashboard Designer should import from `src.interfaces`:
 
 ```python
 from src.interfaces import (
@@ -209,7 +209,7 @@ Returns ranked dictionaries:
 
 Person 1 should provide cleaned candidate objects or `candidate_features`. This module can consume raw candidate JSON directly and can also be called after Person 1 normalization.
 
-Person 2 outputs:
+Semantic Matching Pipeline outputs:
 
 - `parsed_jd`
 - `jd_intelligence`
@@ -222,9 +222,9 @@ Person 2 outputs:
 
 The main handoff file is `outputs/semantic_features.json`. It contains each candidate's rank, semantic score, embedding score, matched skills/domains, candidate intelligence, candidate text, and reasons.
 
-Person 3 should combine these semantic outputs with behavioral, availability, trust, and honeypot signals.
+Behavior+Trust Engine Developer should combine these semantic outputs with behavioral, availability, trust, and honeypot signals.
 
-Person 4 should use `semantic_score`, `candidate_intelligence`, `matched_domains`, and `reason_for_match` for final ranking and explainability.
+Ranking+Dashboard Designer should use `semantic_score`, `candidate_intelligence`, `matched_domains`, and `reason_for_match` for final ranking and explainability.
 
 ## Design Notes
 
