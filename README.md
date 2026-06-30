@@ -6,7 +6,9 @@
 
 An end-to-end AI Recruitment Intelligence System capable of ranking **100,000+ candidates** using **Semantic AI**, **Behavioral Intelligence**, **Trust Scoring**, and **Explainable AI**.
 
-<img src="D:\Projects\TalentMind.AI\banner.png" width="100%">
+<img width="1983" height="793" alt="banner" src="https://github.com/user-attachments/assets/bd5cd37a-1f3a-4c42-909f-0865f29cd828" />
+
+
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red?logo=streamlit)
@@ -92,19 +94,22 @@ Dashboard
 
 ## Dashboard
 
-<img src="D:\Projects\TalentMind.AI\Dashboard.jpeg">
+<img width="1600" height="746" alt="Dashboard" src="https://github.com/user-attachments/assets/b9360be3-bc8d-4662-857a-1fee9628e16e" />
+
 
 ---
 
 ## Rankings
 
-<img src="D:\Projects\TalentMind.AI\Rankings.jpeg">
+<img width="1562" height="797" alt="Rankings" src="https://github.com/user-attachments/assets/a9693acd-4dc9-4a41-b987-17e6819dd8f8" />
+
 
 ---
 
 ## Candidate Insights
 
-<img src="D:\Projects\TalentMind.AI\Candidate Insights.jpeg">
+<img width="1572" height="927" alt="Candidate Insights" src="https://github.com/user-attachments/assets/fb416c2c-4ec3-44c1-8718-fff8418185ef" />
+
 
 # Folder Structure
 
